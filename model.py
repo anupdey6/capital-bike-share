@@ -43,3 +43,4 @@ ada = AdaBoostRegressor()
 ada.fit(x,y)
 pickle.dump(ada, open('model.pkl','wb'))
 # line
+

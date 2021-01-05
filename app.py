@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = pickle.load(open('Module 2/flaskapp/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 day_dict = {'Fri':[1,0,0,0,0,0,0], 'Mon':[0,1,0,0,0,0,0],
             'Sat': [0,0,1,0,0,0,0], 'Sun':[0,0,0,1,0,0,0],

@@ -8,7 +8,7 @@ import pickle
 
 ## read the file
 
-df=pd.read_csv('Module 2/flaskapp/hour.csv')
+df=pd.read_csv(r'C:\Users\anupd\OneDrive\Desktop\capital-bike-share\hour.csv')
 
 
 ## preprocess
@@ -41,5 +41,5 @@ y = df['total_count']
 
 ada = AdaBoostRegressor()
 ada.fit(x,y)
-pickle.dump(ada, open('Module 2/flaskapp/model.pkl','wb'))
+pickle.dump(ada, open('model.pkl','wb'))
 # line

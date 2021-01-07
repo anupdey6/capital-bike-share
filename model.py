@@ -15,11 +15,15 @@ df=pd.read_csv('newdata1.csv')
 
 
 
-df = df[['hour','holiday', 'weekday','count']]
+df = df[['hour','month','holiday', 'weekday','Member type','count']]
+
+df.columns = [ 'hour','month','holiday','weekday','Member_type','count']
 
 
 df.holiday = df.holiday.astype('category')
 df.weekday = df.weekday.astype('category')
+df.month = df.month.astype('category')
+df.Member_type = df.Member_type.astype('category')
 
 df = pd.get_dummies(df)
 

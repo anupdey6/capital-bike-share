@@ -35,16 +35,16 @@
           document.getElementById('Holiday').value = "<?php if (isset($_POST['Holiday'])) echo $_GET['Holiday'];?>";
         </script>
 
-        
+
         <br>
         <br>
         <label for="Member_Type">Member_Type:</label>
         <select name="Member_Type" id="Member_Type">
-            <option value="Casual">Casual</option>
-            <option value="Member">Member</option>
+            <option value="Casual">Casual Member</option>
+            <option value="Member">Registered Member</option>
         </select>
 
-        <script type="text/javascript">
+        <script type="text/javascript"> 
           document.getElementById('Member_Type').value = "<?php if (isset($_POST['Member_Type'])) echo $_GET['Member_Type'];?>";
         </script>
 

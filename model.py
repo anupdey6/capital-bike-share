@@ -8,7 +8,7 @@ import pickle
 
 ## read the file
 
-df=pd.read_csv('newdata.csv')
+df=pd.read_csv('newdata1.csv')
 
 
 ## preprocess

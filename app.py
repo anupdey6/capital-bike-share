@@ -12,6 +12,14 @@ day_dict = {'Fri':[1,0,0,0,0,0,0], 'Mon':[0,1,0,0,0,0,0],
             'Thu':[0,0,0,0,1,0,0], 'Tue':[0,0,0,0,0,1,0],
             'Wed': [0,0,0,0,0,0,1]}
 
+
+month_dict = {'Apr':[1,0,0,0,0,0,0,0,0,0,0,0], 'Aug':[0,1,0,0,0,0,0,0,0,0,0,0],
+            'Dec':[0,0,1,0,0,0,0,0,0,0,0,0], 'Feb':[0,0,0,1,0,0,0,0,0,0,0,0],
+            'Jan':[0,0,0,0,1,0,0,0,0,0,0,0], 'Jul':[0,0,0,0,0,1,0,0,0,0,0,0],
+            'Jun':[0,0,0,0,0,0,1,0,0,0,0,0], 'Mar':[0,0,0,0,0,0,0,1,0,0,0,0],
+            'May':[0,0,0,0,0,0,0,0,1,0,0,0], 'Nov':[0,0,0,0,0,0,0,0,0,1,0,0],
+            'Oct':[0,0,0,0,0,0,0,0,0,0,1,0], 'Sep':[0,0,0,0,0,0,0,0,0,0,0,1]}
+
 # cols = ['hour', 'is_holiday', 'day_of_week']
 
 @app.route('/')
@@ -53,11 +61,22 @@ def predict():
         data.extend([0,1])
     else:
         data.extend([1,0])
+
+    # member_type 
+    if item[2] == 'Member':
+        data.extend([0,1])
+    else:
+        data.extend([1,0])
         
     # fri, mon, sat , sun, thu, tue, wed
-    data.extend(day_dict[item[2]])
+    data.extend(day_dict[item[3]])
+
+    # month
+
+    data.extend(month_dict[item[4]])
+
+
     
-   
     prediction = int(model.predict([data])[0])
     
     # postman begin
@@ -68,7 +87,7 @@ def predict():
    
 
 
-    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs will be {}'.format(item[2], item[0],prediction))
+    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs will be {}'.format(item[3], item[0],prediction))
 
 
 

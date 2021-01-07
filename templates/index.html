@@ -35,6 +35,19 @@
           document.getElementById('Holiday').value = "<?php if (isset($_POST['Holiday'])) echo $_GET['Holiday'];?>";
         </script>
 
+        
+        <br>
+        <br>
+        <label for="Member_Type">Member_Type:</label>
+        <select name="Member_Type" id="Member_Type">
+            <option value="Casual">Casual</option>
+            <option value="Member">Member</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Member_Type').value = "<?php if (isset($_POST['Member_Type'])) echo $_GET['Member_Type'];?>";
+        </script>
+
         <br>
         <br>
         <label for="Day_Of_Week">Day_Of_Week:</label>
@@ -50,6 +63,28 @@
 
         <script type="text/javascript">
           document.getElementById('Day_Of_Week').value = "<?php if (isset($_POST['Day_Of_Week'])) echo $_GET['Day_Of_Week'];?>";
+        </script>
+
+        <br>
+        <br>
+        <label for="Month">Month:</label>
+        <select name="Month" id="Month">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Month').value = "<?php if (isset($_POST['Month'])) echo $_GET['Month'];?>";
         </script>
 
         <br>

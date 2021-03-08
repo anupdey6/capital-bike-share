@@ -55,6 +55,9 @@ All the data used in this project are included in the respective folders. The da
 
 In the segmant of exploratory analysis, I analyzed data from 2011-12 using barplots, boxplots, pairplots, lineplots and scatterplots. While doing this analyze I used several metrics such as, average number of bike rentals in day/hour, average rental duration, average distance and average speed. Member type, season, month, weekday and weather these are the main dimensions used in analysis. 
 
+The achieved results were the following:
+
+ 1) 
 
 
 ## Facebook Prophet:

@@ -1,4 +1,4 @@
-#  Capital Bike Share Washington DC
+#  Capital Bike Share 
 
 
 <p align="center">

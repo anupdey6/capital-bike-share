@@ -52,7 +52,7 @@ Therefore, with an increasing number of people demanding cost-effective daily co
 
 ## Facebook Prophet:
 
- Facebook’s Prophet library is designed to do Time Series forecasting and supports R and Python. We used this library -
+ Facebook’s Prophet library is designed to do Time Series forecasting and supports R and Python. We used this library-
 1) To predict What the future bike sharing demand will look like for the next 3 months
 2) To investigate Factors that contribute to demand
 3) To find out the hidden opportunities for increasing demand.

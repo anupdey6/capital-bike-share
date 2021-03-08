@@ -74,6 +74,9 @@ All the data used in this project are included in the respective folders. The da
 Flask is a lightweight [WSGI](https://wsgi.readthedocs.io/en/latest/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. In this stage, we made an app with Flask to get a prediction of rented bikes per hour by using [AdaBoostRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html) as regression. It takes an input of weekday, hour, month, member type and  is a holiday or not, and gives a prediction of bike usage within the hour. The app can be found on https://bike-share-count.herokuapp.com .
 
 
+To deploy machine learning model on Heroku by using Flask, please follow the video:
+[![Web Scrape Amazon : Processor (Computer ) using Python](https://img.youtube.com/vi/n8yXd4tZylg/0.jpg)](https://www.youtube.com/watch?v=n8yXd4tZylg)
+
 
 ## End Note:
 

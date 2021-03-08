@@ -96,7 +96,7 @@ Please follow the social media links of the author_
 <!-- update these accordingly -->
 
 
-[1]: https://myaccount.google.com/profile
-[2]: https://github.com/Sheikh-Nabil
+[1]: https://myaccount.google.com/profile?pli=1
+[2]: https://github.com/anupdey6
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->

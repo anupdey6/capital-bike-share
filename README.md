@@ -75,6 +75,7 @@ Flask is a lightweight [WSGI](https://wsgi.readthedocs.io/en/latest/) web applic
 
 
 To deploy machine learning model on Heroku by using Flask, please follow the video:
+
 [![Web Scrape Amazon : Processor (Computer ) using Python](https://img.youtube.com/vi/n8yXd4tZylg/0.jpg)](https://www.youtube.com/watch?v=n8yXd4tZylg)
 
 

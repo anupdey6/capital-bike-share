@@ -57,7 +57,11 @@ In the segmant of exploratory analysis, I analyzed data from 2011-12 using barpl
 
 The achieved results were the following:
 
- 1) 
+ 1) Users with Registered Member generate majority of rides - around 3 times more than Casual members.
+ 2) Member users rent more bikes than Casual users.
+ 3) By observing number of bike rentals on each weekday, we can conclude that Member users tend to ride a bike from Monday to Friday (probably to work, university, school), while Casual users are most active during weekends (bike trips). Duration of ride doesn't depend on weekday for Member users and for Casual riders it's slightly longer during the weekend.
+ 4) For Member users there are two peaks during the day when number of bike rentals is the highest: in the morning (around 7-9am) and in the afternoon (around 4-6pm). It is in line with the hypothesis that those users rent a bike to get to / back from work or school. For Casual users there's no clear peak, however between 11am - 5pm the activity is the highest.
+ 5) The pattern of number of bike rentals in an hour doesn't change throughout the seasons - only the level of number of rentals is the lowest in the winter and the highest in the summer. Summer has the highest hourly average of bike rentals and it also characterized with the biggest variance of number of hourly bike rentals. At the same time, winter has the lowest average number of hourly bike rentals and also standard deviation is the lowest.
 
 
 ## Facebook Prophet:

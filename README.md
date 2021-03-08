@@ -45,6 +45,8 @@ Therefore, with an increasing number of people demanding cost-effective daily co
 
 ## Data Description:
 
+All the data used in this project are included in the respective folders. The data was collected from the capital bike share [website](https://www.capitalbikeshare.com/system-data) where they publish their bike ride data. There are data from two different timeframe 2011-12, and 2018-19-20. Al the used data included in this project were in .json format and transformed into .csv format for further analysis.
+
 
 
 

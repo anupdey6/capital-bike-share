@@ -68,7 +68,7 @@ The achieved results were the following:
 ## Facebook Prophet:
 
  Facebook’s Prophet library is designed to do Time Series forecasting and supports R and Python. In this stage, The full 2018-20 data from the company [website](https://s3.amazonaws.com/capitalbikeshare-data/index.html) were used to give a forecast using Facebook Prophet. We used this library-
-1) to predict What the future bike sharing demand will look like for the next 3 months.
+1) to predict What the future bike-sharing demand will look like for the next 3 months.
 2) to investigate Factors that contribute to demand.
 3) to find out the hidden opportunities for increasing demand.
 

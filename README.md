@@ -45,7 +45,7 @@ Therefore, with an increasing number of people demanding cost-effective daily co
 
 ## Data Description:
 
-All the data used in this project are included in the respective folders. The data was collected from the capital bike share [website](https://www.capitalbikeshare.com/system-data) where they publish their bike ride data. There are data from two different timeframe 2011-12, and 2018-19-20. Al the used data included in this project were in .json format and transformed into .csv format for further analysis.
+All the data used in this project are included in the respective folders. The data was collected from the capital bike share [website](https://s3.amazonaws.com/capitalbikeshare-data/index.html) where they publish their bike ride data. There are data from two different timeframe 2011-12, and 2018-19-20. Al the used data included in this project were in .json format and transformed into .csv format for further analysis.
 
 
 
@@ -53,7 +53,7 @@ All the data used in this project are included in the respective folders. The da
 
 ## Exploratory Analysis:
 
-In the segmant of exploratory analysis, I analyzed data from 2011-12 using barplots, boxplots, pairplots, lineplots and scatterplots. While doing this analyze I used several metrics such as, average number of bike rentals in day/hour, average rental duration, average distance and average speed. Member type, season, month, weekday and weather these are the main dimensions used in analysis. 
+In the segmant of exploratory analysis, from the company [website](https://s3.amazonaws.com/capitalbikeshare-data/index.html) I analyzed the data of 2011-12 using barplots, boxplots, pairplots, lineplots and scatterplots. While doing this analyze I used several metrics such as, average number of bike rentals in day/hour, average rental duration, average distance and average speed. Member type, season, month, weekday and weather these are the main dimensions used in analysis. 
 
 The achieved results were the following:
 
@@ -66,7 +66,7 @@ The achieved results were the following:
 
 ## Facebook Prophet:
 
- Facebook’s Prophet library is designed to do Time Series forecasting and supports R and Python. In this stage, The full 2018-20 data from the company [website](https://www.capitalbikeshare.com/system-data) were used to give a forecast using Facebook Prophet. We used this library-
+ Facebook’s Prophet library is designed to do Time Series forecasting and supports R and Python. In this stage, The full 2018-20 data from the company [website](https://s3.amazonaws.com/capitalbikeshare-data/index.html) were used to give a forecast using Facebook Prophet. We used this library-
 1) to predict What the future bike sharing demand will look like for the next 3 months.
 2) to investigate Factors that contribute to demand.
 3) to find out the hidden opportunities for increasing demand.

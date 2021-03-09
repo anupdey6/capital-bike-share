@@ -85,7 +85,7 @@ To deploy machine learning model on Heroku by using Flask, please follow the vid
 
 [![Web Scrape Amazon : Processor (Computer ) using Python](https://img.youtube.com/vi/n8yXd4tZylg/0.jpg)](https://www.youtube.com/watch?v=n8yXd4tZylg)
 
-Tutorial Credit [Sekhar Biswas](https://github.com/shekharbiswas)
+Tutorial Credit [Shekhar Biswas](https://github.com/shekharbiswas)
 
 
 ## End Note:

@@ -14,7 +14,7 @@
 4. [Exploratory Analysis](#Exploratory-Analysis)
 5. [Facebook Prophet](#facebook-Prophet)
 6. [Flask App](#Flask-App)
-7. [End Note](#End-Note)
+7. [Legal Terms](#Legal-Terms)
 
 
 
@@ -89,9 +89,9 @@ To deploy machine learning model on Heroku by using Flask, please follow the vid
 Tutorial Credit [Shekhar Biswas](https://github.com/shekharbiswas)
 
 
-## End Note:
+## Legal Terms:
 
-Please follow the social media links of the author_
+All data has been used only for educational purposes.
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
